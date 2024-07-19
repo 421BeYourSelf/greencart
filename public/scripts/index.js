@@ -77,7 +77,7 @@ function getRandomItems() {
   ];
 
   let selectedItems = [];
-  let numberOfItems = Math.max(Math.floor(Math.random() * 5) + 6, 60); // 确保最少购买10样
+  let numberOfItems = Math.max(Math.floor(Math.random() * 5) + 6, 5); // 确保最少购买10样
 
   for (let i = 0; i < numberOfItems; i++) {
     const product = products[Math.floor(Math.random() * products.length)];
